@@ -30,15 +30,13 @@ body {
 
 
 .app {
-    background:url(../img/logo.png) no-repeat center top; 
+   
     position:absolute;            
     left:50%;
-    top:50%;
-    height:50px;                  
-    width:325px;                  
+    top:50%;             
     text-align:center;
-    padding:180px 0px 0px 0px;    
-    margin:-115px 0px 0px -112px;
+    padding:0px 0px 0px 0px;    
+    margin:0px 0px 0px 0px;
 }
 
 

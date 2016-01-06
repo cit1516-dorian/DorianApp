@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title> CIT CONCOURS 2 </title>
+		<link rel="stylesheet" href= "Concours2.css" types="text/css" />
+		
+<script language="JavaScript">
+function imc(taille, masse) {
+	var imc=0;
+	imc=masse/((taille/100)^2);
+	alert("Votre IMC est egal a "+imc);
+	}
+</script>
+	</head>
+<body bgcolor="#FF0000"> <center> 
+<h1> Calcul de l'Indice de Masse Corporelle (IMC)</h1>
+<p> L'Indice de Masse Corporelle (IMC) ou Body Mass Index (BMI) est une grandeur qui permet d'estimer la corpulence d'une personne,</p>
+<p> Selon la classification de L'OMS: IMC = masse / (taille) <sup>2</sup> avec la masse en kg et la taille en m. </p>
+<form>
+Votre taille <b> en cm </b> = <input type="text" name="taille" value="165" />
+<br />
+Votre masse <b> en kg </b> = <input type="text" name="masse" value="65" />
+<br / >
+<input type="button" value="Bonne Chance..." onClick="imc(this.form.taille.value, this.form.masse.value)" />
+</form>
+
+<p>
+<b>Interpretation de l'IMC</b><br />
+16,5 a 18,5 : maigreur <br />
+18,5 a 25 : corpulence normale<br />
+25 a 30 : surpoids<br />
+30 a 35 : obesite moderee<br />
+35 a 40 : obesite severe<br />
+plus que 40 : obesite morbide ou massive<br />
+</p>
+			<div class="container">
+			<img src= "FunnyBMIChart.jpg" alt= "BMI Chart" class="BMIChart" style="height:300px;"/>
+			<img src= "BMIChartComparaison.jpg" alt= "BMI Chart" class="BMIChartComparaison" style="height:300px;"/>
+			</div>
+			<div class="container">
+			<img src= "BMIChart.jpg" alt= "BMIChart" width="600px"/>
+			</div>
+			
+	</center>
+</body>
+</html>																																																									
